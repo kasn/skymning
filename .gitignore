@@ -29,4 +29,5 @@ yarn-error.log*
 .env
 .env.build
 
-generated
+generated/
+!generated/.gitkeep
