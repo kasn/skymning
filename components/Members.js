@@ -18,7 +18,6 @@ const Member = ({ member }) => (
 
 const Members = () => (
   <>
-    <h1>Members</h1>
     <div className="flex flex-wrap">
       {data.map((member) => (
         <Member member={member} key={member.id} />
