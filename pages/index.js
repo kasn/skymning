@@ -8,7 +8,7 @@ const Home = () => (
       <title>SKYMNiNG</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <div className="flex items-center justify-center min-h-screen bg-gray-900 bg-gradient-to-b from-orange-400 via-red-500 to-blue-900">
+    <div className="flex items-center justify-center min-h-screen bg-blue-900 bg-gradient-to-b from-orange-400 via-red-500 to-blue-900">
       <div>
         <div className="triangle-wrapper block">
           <div className="triangle"></div>
@@ -20,7 +20,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div>
+    <div className="container">
       <Members />
     </div>
   </Layout>
