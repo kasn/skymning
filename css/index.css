@@ -6,10 +6,16 @@
 }
 
 .title {
-  @apply text-center font-bold;
+  @apply text-center font-bold block flex mt-4 items-center justify-center;
   color: #ffffff;
   line-height: 1.15;
   font-size: 60px;
+}
+
+.guardianClass {
+  @apply text-center font-bold text-2xl;
+  color: #ffffff;
+  line-height: 1.15;
 }
 
 @tailwind utilities;

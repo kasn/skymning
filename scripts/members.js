@@ -40,6 +40,7 @@ async function load() {
           emblemBackgroundPath: character.emblemBackgroundPath,
           emblemHash: character.emblemHash,
           emblemColor: character.emblemColor,
+          guardianClass: character.classType,
         };
       }),
     };
