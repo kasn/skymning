@@ -2,7 +2,11 @@
 @tailwind components;
 
 .hero {
-  @apply py-20;
+  @apply text-center font-black text-white text-2xl my-16;
+}
+
+.banner {
+  @apply flex items-center justify-center min-h-screen bg-blue-900 bg-gradient-to-b from-orange-400 via-red-500 to-blue-900
 }
 
 .title {

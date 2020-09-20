@@ -27,7 +27,7 @@ const Home = () => (
         </h1>
       </div>
     </div>
-    <div className="container text-center font-black text-white text-2xl my-16">
+    <div className="hero container">
       Destiny 2 Clan since 2017.{" "}
       <a
         href="https://discord.gg/SuXxaUb"
