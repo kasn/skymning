@@ -2,6 +2,7 @@ import data from "../generated/members.json";
 import Hunter from "../svg/class_hunter.svg";
 import Warlock from "../svg/class_warlock.svg";
 import Titan from "../svg/class_titan.svg";
+
 // class type
 // Titan: 0
 // Hunter: 1
@@ -27,19 +28,19 @@ const Member = ({ member }) => (
           {char.guardianClass === 1 && (
             <>
               <Hunter fill="#FFF" />
-              <h1 className="guardianClass pl-2">Hunter</h1>
+              <h1 className="guardianClass">Hunter</h1>
             </>
           )}
           {char.guardianClass === 2 && (
             <>
               <Warlock fill="#FFF" />
-              <h1 className="guardianClass pl-2">Warlock</h1>
+              <h1 className="guardianClass">Warlock</h1>
             </>
           )}
           {char.guardianClass === 0 && (
             <>
               <Titan fill="#FFF" />
-              <h1 className="guardianClass pl-2">Titan</h1>
+              <h1 className="guardianClass">Titan</h1>
             </>
           )}
         </div>

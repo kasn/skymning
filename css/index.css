@@ -17,7 +17,7 @@
 }
 
 .guardianClass {
-  @apply text-center font-bold text-2xl;
+  @apply text-center font-bold text-2xl pl-2;
   color: #ffffff;
   line-height: 1.15;
 }
