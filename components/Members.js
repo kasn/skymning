@@ -13,6 +13,7 @@ const Member = ({ member }) => (
     <div className="bg-white  m-2">
       {member.characters.map((char) => (
         <div
+          key={`${member.id}-${char.guardianClass}`}
           className="w-full flex items-center"
           style={{
             backgroundColor: `rgb(${char.emblemColor.red}, ${char.emblemColor.blue}, ${char.emblemColor.green})`,

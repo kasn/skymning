@@ -12,14 +12,18 @@ const Footer = () => (
         Bungie Content © Bungie, Inc. All rights reserved. Destiny, the Destiny
         Logo, Bungie and the Bungie logo are among the trademarks of Bungie,
         Inc.
-      </div>
-      <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+        <br />
+        Destiny Icons provided by{" "}
         <a
-          href="https://twitter.com/skymning_d2"
-          className="w-12 mx-1"
+          href="https://github.com/justrealmilk/destiny-icons"
           target="_blank"
           rel="noopener noreferrer"
         >
+          justrealmilk/destiny-icons
+        </a>
+      </div>
+      <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+        <a href="https://twitter.com/skymning_d2" className="w-12 mx-1">
           Twitter
         </a>
         <a
