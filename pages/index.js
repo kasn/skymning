@@ -10,7 +10,7 @@ const Home = () => (
       <title>SKYMNiNG</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <div className="flex items-center justify-center min-h-screen bg-blue-900 bg-gradient-to-b from-orange-400 via-red-500 to-blue-900">
+    <div className="banner">
       <div>
         <div className="triangle-wrapper block">
           <div className="triangle"></div>

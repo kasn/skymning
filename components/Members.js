@@ -11,7 +11,7 @@ import Titan from "../svg/class_titan.svg";
 
 const Member = ({ member }) => (
   <div className="w-full sm:w-1/2 lg:w-1/3 mb-2">
-    <div className="bg-white  m-2">
+    <div className="m-2">
       {member.characters.map((char) => (
         <div
           key={`${member.id}-${char.guardianClass}`}
@@ -45,8 +45,8 @@ const Member = ({ member }) => (
           )}
         </div>
       ))}
-      <div className="text-center">
-        <h2 className="text-lg">{member.name}</h2>
+      <div className="text-center m-4">
+        <h2 className="text-lg text-white font-bold">{member.name}</h2>
       </div>
     </div>
   </div>
