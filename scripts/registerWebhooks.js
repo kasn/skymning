@@ -1,5 +1,4 @@
 const twitch = require("./util/twitch");
-const fetch = require("node-fetch");
 const get = require("lodash/get");
 require("dotenv").config();
 
@@ -27,8 +26,6 @@ async function load() {
       "hub.callback": "https://skymning.de/api/twitch",
     }),
   });
-
-  console.log(hook);
 }
 
 load();
