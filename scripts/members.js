@@ -50,15 +50,12 @@ async function load() {
 
   members = await Promise.all(members);
 
-  console.log(members);
-
   fs.writeFileSync(
     `${__dirname}/../generated/members.json`,
-    JSON.stringify(members),
+    JSON.stringify(members, null, 2),
     {
       flag: "w",
-    },
-    2
+    }
   );
 }
 
