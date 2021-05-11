@@ -11,7 +11,7 @@
     "autoprefixer": "^9.8.5",
     "babel-plugin-inline-react-svg": "^1.1.1",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "next": "^9.3.3",
     "node-fetch": "^2.6.1",
     "postcss-flexbugs-fixes": "^4.2.1",
